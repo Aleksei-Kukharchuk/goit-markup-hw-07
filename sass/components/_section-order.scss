@@ -1,0 +1,48 @@
+.order {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 1200px;
+  
+    text-align: center;
+  
+    background-image: linear-gradient(
+        $second-tittle-background,
+        $second-tittle-background
+      ),
+      url(../images/Header-img.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+.order__tittle {
+  margin-bottom: 30px;
+  margin-top: 0px;
+
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.38;
+
+  color: $second-tittle-color;
+}
+
+.button {
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+
+  letter-spacing: 0.06em;
+  line-height: 1.9;
+  font-weight: 700;
+
+  background-color: $accent-color;
+  color: $second-tittle-color;
+
+    &:hover,
+    &:focus {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
