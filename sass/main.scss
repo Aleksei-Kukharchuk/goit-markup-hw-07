@@ -1,9 +1,9 @@
 @import './utils/var';
-@import './utils/body-style';
-@import './utils/link-style';
-@import './utils/list-style';
-@import './utils/container';
-@import './utils/section-tittle';
+@import './common/body-style';
+@import './common/link-style';
+@import './common/list-style';
+@import './common/container';
+@import './common/section-tittle';
 @import './components/logo';
 @import './components/address';
 @import './components/header';
